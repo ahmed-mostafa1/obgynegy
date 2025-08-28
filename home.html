@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ObGynEgy</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Home of OBGYN Lectures</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://obgynegy.com/pricing">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://obgynegy.com/table1"
+                >Study Days</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://obgynegy.com/gallery"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://obgynegy.com/users/dashboard"
+                >My Account</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 hero-content text-center" data-aos="fade-right">
+            <h1 class="hero-title">Obstetrics Gynecology Egypt</h1>
+            <p class="hero-subtitle">
+              EMPOWERING Health Care Providers with the Most Comprehensive
+              Obstetrics and Gynecology
+            </p>
+            <a href="#services" class="btn btn-warning btn-lg"
+              >Browse Services</a
+            >
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="floating">
+              <img
+                src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt="Books"
+                class="img-fluid rounded-4 shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructions & Warnings -->
+    <section id="instructions" class="instructions-section" dir="rtl">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="alert alert-custom fw-bold" data-aos="fade-up">
+            يرجى قراءة هذه التعليمات بعناية
+          </h2>
+        </div>
+
+        <div class="list-group">
+          <a
+            href="#"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3 text-danger"
+            aria-current="true"
+          >
+            <i
+              class="bi bi-exclamation-triangle-fill"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            ></i>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">لن أسامحك يوم القيامة إن كنت من هؤلاء: </h6>
+                <ul>
+                  <li>تشاهد المحاضرات بغير اشتراك</li>
+                  <li>تحصلت على إشتراك بالمشاركة أو المجاملة</li>
+                  <li>قمت بشراء إشتراك من غير الموزع</li>
+                  <li>تشاهد المحاضرات من أي مصدر غير الموزع</li>
+                </ul>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#help"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <i
+              class="bi bi-exclamation-triangle-fill"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            ></i>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">
+                  إذا كنت تواجه مشكلة <span class="text-info">اضغط هنا</span>
+                </h6>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://obgynegy.com/table1"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <i
+              class="bi bi-exclamation-triangle-fill"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            ></i>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">
+                  لمعرفة محتويات الموقع وترتيب المحاضرات
+                  <span class="text-info">اضغط هنا</span>
+                </h6>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://obgynegy.com/pricing"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <i
+              class="bi bi-exclamation-triangle-fill"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            ></i>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">
+                  المنتجات العلمية وكيفية اﻹشتراك
+                  <span class="text-info">اضغط هنا</span>
+                </h6>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <i
+              class="bi bi-exclamation-triangle-fill"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            ></i>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">يمكن شراء جميع الكتب من داخل وخارج مصر</h6>
+              </div>
+            </div>
+          </a>
+          <a
+            href="#"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <i
+              class="bi bi-exclamation-triangle-fill"
+              width="32"
+              height="32"
+              class="rounded-circle flex-shrink-0"
+            ></i>
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">
+                  حفاظا على الموقع لن يمكنكم التسجيل المجاني حيث تم اختراق
+                  الموقع اكثر من مرة من خلال زرع الاف الحسابات الوهمية خلال
+                  دقائق فتم ايقاف التسجيل المجاني
+                </h6>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- End List Item -->
+      </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold" data-aos="fade-up">Our Services</h2>
+          <p class="lead" data-aos="fade-up" data-aos-delay="100">
+            Explore our most popular publications
+          </p>
+        </div>
+        <div class="row g-4">
+            <!-- Video lectures -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="book-card">
+              <img
+                src="./img/vid-lect.png"
+                class="book-img w-100"
+                alt="Book Cover"
+              />
+              <div class="p-4">
+                <h4 class="text-center">Video lectures</h4>
+                <ul class="text-muted">
+                  <li>More than 400 Lectures always available</li>
+                  <li>
+                    No need to Take Notes, Moving around, worry about losing
+                    focus
+                  </li>
+                  <li>Watch and repeate again untill you understand</li>
+                  <li>Simple, Easy to use design</li>
+                  <li class="text-info">
+                    Separate subscription, not free with the book
+                  </li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="book-price discount">8800 LE</span>
+                  <span class="book-price">6600 LE</span>
+
+                  <a href="/buy-lectures.html" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Togivel textbook -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="book-card">
+              <img
+                src="./img/togivel.jpg"
+                class="book-img w-100"
+                alt="Book Cover"
+              />
+              <div class="p-4">
+                <h4 class="text-center">TOGIVEL Textbook</h4>
+                <ul class="text-muted">
+                  <li>
+                    Specially prepared for fellowship, master's and doctoral
+                    exams
+                  </li>
+                  <li>
+                    Founded on evidence-based guidelines :<br />(RCOC - ACOG -
+                    FIGO - WHO - ESHRE - ISUOG)
+                  </li>
+                  <li>
+                    Cover Sub-specialities of Ultrasound and IVF/ICSI in details
+                  </li>
+                  <li>Rich in Algorithms, Original Content, Mind Maps</li>
+                  <li>Free Lifetime access to Togivel Website</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="book-price">2250 LE</span>
+                  <a href="/buy-book.html" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Clinical Obstetrics Handbook -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="book-card">
+              <img
+                src="./img/clinical-book.jpg"
+                class="book-img w-100"
+                alt="Book Cover"
+              />
+              <div class="p-4">
+                <h4 class="text-center">Clinical Obstetrics Handbook</h4>
+                <ul class="text-muted">
+                  <li>
+                    Your companion in Obstetric Clinic, Labor ward and Emergency
+                    room
+                  </li>
+                  <li>Detailed Antinatal Care</li>
+                  <li>Labor Room</li>
+                  <li>Emergency Room</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="book-price">300 LE</span>
+                  <a href="/buy-book.html" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Clinical Gynecology Handbook -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="book-card">
+              <img
+                src="./img/gyn-book.jpg"
+                class="book-img w-100"
+                alt="Book Cover"
+              />
+              <div class="p-4">
+                <h4 class="text-center">Clinical Gynecology Handbook</h4>
+                <ul class="text-muted">
+                  <li>Your true GYN clinic starts here</li>
+                  <li>Detailed Gynecology Diseases</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="book-price">300 LE</span>
+                  <a href="/buy-book.html" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- togivel website -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="book-card">
+              <img
+                src="./img/togivelwebsite.png"
+                class="book-img w-100"
+                alt="Book Cover"
+              />
+              <div class="p-4">
+                <h4 class="text-center">TOGIVEL Website</h4>
+                <ul class="text-muted">
+                  <li>Comes for free with Togivel Textbook</li>
+                  <li>Updates and Toturials</li>
+                  <li>MCQ Challenges</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="book-price text-success"> Free</span>
+                  <a href="/access-free-tog-web.html" class="btn btn-primary"
+                    >Visit Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Ultra Sound website -->
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="book-card">
+              <img
+                src="./img/ultrasound.webp"
+                class="book-img w-100"
+                alt="Book Cover"
+              />
+              <div class="p-4">
+                <h4 class="text-center">Ultrasound website</h4>
+                <ul class="text-muted">
+                  <li>Detailed Information and Instructions</li>
+                  <li>Tips and Tricks in Obstetric ultrasound</li>
+                  <li>Clean Structure, Easy to follow</li>
+                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="book-price text-success"> Free</span>
+                  <a
+                    href="https://www.obstetric-ultrasound.com/"
+                    class="btn btn-primary"
+                    >Visit Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold" data-aos="fade-up">Account Login</h2>
+          <p class="lead" data-aos="fade-up" data-aos-delay="100">
+            Access your account to manage purchases and downloads
+          </p>
+        </div>
+
+        <div class="login-form" data-aos="fade-up" data-aos-delay="200">
+          <form action="https://obgynegy.com/users/login">
+            <div class="mb-4">
+              <label for="email" class="form-label">Email Address</label>
+              <div class="input-group">
+                <span class="input-group-text"
+                  ><i class="bi bi-envelope"></i
+                ></span>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="username"
+                  placeholder="your.email@example.com"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <label for="password" class="form-label">Password</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  placeholder="Enter your password"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="mb-4 form-check">
+              <input type="checkbox" class="form-check-input" id="rememberMe" />
+              <label class="form-check-label" for="rememberMe"
+                >Remember me</label
+              >
+            </div>
+
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+
+            <div class="text-center mt-4">
+              <a href="https://obgynegy.com/users/forget_password" class="text-decoration-none">Forgot Password?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="help" class="faq-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold" data-aos="fade-up">
+            Frequently Asked Questions
+          </h2>
+          <p class="lead" data-aos="fade-up" data-aos-delay="100">
+            Find answers to common questions about our books and services
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq1"
+                  >
+                    How do I access my purchased digital books?
+                  </button>
+                </h2>
+                <div
+                  id="faq1"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    After completing your purchase, you will receive an email
+                    with a secure download link. You can also access all your
+                    purchased materials by logging into your account and
+                    visiting the "My Books" section.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq2"
+                  >
+                    What formats are available for the books?
+                  </button>
+                </h2>
+                <div
+                  id="faq2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    All digital books are available in PDF, EPUB, and MOBI
+                    formats to ensure compatibility with all devices. Physical
+                    books are available in paperback and hardcover editions.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq3"
+                  >
+                    Can I get a refund if I'm not satisfied?
+                  </button>
+                </h2>
+                <div
+                  id="faq3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    We offer a 30-day money-back guarantee for all digital
+                    purchases. If you're not satisfied with your purchase,
+                    please contact our support team with your order number for a
+                    full refund. Physical books must be returned in original
+                    condition.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq4"
+                  >
+                    Do you offer discounts for students or educational
+                    institutions?
+                  </button>
+                </h2>
+                <div
+                  id="faq4"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    Yes, we offer special pricing for students and educational
+                    institutions. Please contact us with your academic email
+                    address or institutional information to receive a discount
+                    code.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq5"
+                  >
+                    How often do you release new books?
+                  </button>
+                </h2>
+                <div
+                  id="faq5"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body">
+                    New publications are typically released 2-3 times per year,
+                    coinciding with academic semesters. You can subscribe to our
+                    newsletter to receive notifications about new releases and
+                    special offers.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <h3 class="footer-title">Prof. Bookstore</h3>
+            <p>
+              Providing high-quality academic publications to students,
+              researchers, and educators worldwide.
+            </p>
+            <div class="social-icons mt-3">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <h3 class="footer-title">Quick Links</h3>
+            <div class="footer-links">
+              <a href="#home">Home</a>
+              <a href="#instructions">Instructions</a>
+              <a href="#books">Browse Books</a>
+              <a href="#faq">FAQ</a>
+              <a href="#contact">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <h3 class="footer-title">Contact Information</h3>
+            <div class="footer-links">
+              <a href="#"
+                ><i class="bi bi-envelope me-2"></i> info@profbookstore.com</a
+              >
+              <a href="#"
+                ><i class="bi bi-telephone me-2"></i> +1 (555) 123-4567</a
+              >
+              <a href="#"
+                ><i class="bi bi-geo-alt me-2"></i> 123 University Ave, Academic
+                City</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2023 Professor's Bookstore. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- custom script -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
