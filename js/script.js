@@ -35,10 +35,6 @@
             });
         }, observerOptions);
         
-        document.querySelectorAll('.fade-in').forEach(el => {
-            observer.observe(el);
-        });
-        
         // Add fade-in class to elements that should animate on scroll
         document.addEventListener('DOMContentLoaded', () => {
             const elementsToAnimate = document.querySelectorAll('.book-card, .instruction-card');
