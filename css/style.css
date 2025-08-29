@@ -170,28 +170,20 @@ body {
 footer {
   background-color: var(--primary-color);
   color: white;
-  padding: 60px 0 30px;
+  padding: 10px 0 10px;
 }
 
 .footer-title {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .footer-links a {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   display: block;
-  margin-bottom: 10px;
   transition: all 0.3s ease;
 }
-
-.footer-links a:hover {
-  color: white;
-  transform: translateX(5px);
-}
-
 .social-icons a {
   color: white;
   font-size: 1.5rem;
@@ -265,6 +257,12 @@ footer {
   color: var(--accent-color);
   font-size: 1.3rem;
 }
+
+.list-group-item{
+  border-radius: 10px;
+}
+
+
 
 /* Responsive */
 @media (max-width: 768px) {

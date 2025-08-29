@@ -1,7 +1,11 @@
 -
 -
 -
+-تم فصل كل منتج في موديول منفصل خاص به
 -
 -
--
--ReOrdered FAQs
+-Error messages became -> FAQs
+
+
+
+<i class="bi bi-info-circle-fill"></i>
